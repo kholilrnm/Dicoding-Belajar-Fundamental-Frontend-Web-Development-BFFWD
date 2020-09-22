@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HausBosque Minum Enak</title>
+<link rel="icon" href="HausLogo.png"></head>
+
+<body>
+  <header-app></header-app>
+  <header-jumbotron></header-jumbotron>
+
+  <main class="container">
+    <section class="row mb-2 top-5">
+      <div class="col-sm-12 col-md-3">
+        <img id="Logo" src="../src/assets/img/HausLogo.png" alt="Undefined" class="img-style">
+      </div>
+      <div class="col-sm-12 col-md-9">
+        <div class="row">
+          <div class="col-12 d-sm-none d-md-block text-right">
+            <search-bar></search-bar>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="d-none d-md-block col-3"><hr>
+        <diskon-sidebar></diskon-sidebar>
+      </div>
+      <div class="col-sm-12 col-md-9">
+        <minum-list></minum-list>
+        <div id="loader-text" class="loader loader-default is-active" style="display: none;"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer-app></footer-app> 
+
+<script src="bundle.js"></script></body>
+
+</html>

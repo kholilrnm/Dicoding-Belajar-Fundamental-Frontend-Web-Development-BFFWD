@@ -1,0 +1,61 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: .8rem;
+}
+
+.img-style {
+    width: 150px;
+}
+
+.top-5 {
+    margin-top: 5%;
+}
+
+hr {
+    border: 1px solid #fc9432;
+}
+
+.d-flow-root {
+    display: flow-root;
+}
+
+.text-filter {
+    font-size: 0.7rem;
+    color: #f29a96;
+
+    &:hover {
+        color: #e96d67;
+        text-decoration: none;
+    }
+}
+
+.btn {
+    font-family: "Open Sans", sans-serif;
+    padding: 0.375rem 1rem;
+    font-size: 0.8rem;
+}
+
+.badge {
+    padding: 0.5rem 0.65rem;
+}
+
+.btn-dark,
+.badge-dark {
+    background-color: $black;
+}
+
+@media screen and (max-width: 600px) {
+    .img-style {
+        margin-bottom: 4%;
+    }
+
+}
