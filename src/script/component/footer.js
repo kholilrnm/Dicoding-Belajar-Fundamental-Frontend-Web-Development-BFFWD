@@ -32,3 +32,18 @@ class FooterApp extends HTMLElement {
 }
 
 customElements.define("footer-app", FooterApp);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Kholilul Rachman N.M - Dicoding Indonesia
